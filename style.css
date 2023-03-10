@@ -88,6 +88,14 @@ section{
     100%{
         opacity: 0;
     }
+    nav{
+        width: 100%;
+        position: sticky !important;
+        left: 0;
+        top: 0;
+        box-shadow: 0px 5px 8px rgba(0,0,0,0.5);
+        z-index: 10;
+    }
 }
 
 #home span{
@@ -274,6 +282,7 @@ label{
 
 #pricing{
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 .card{
     margin-top: 15%;
